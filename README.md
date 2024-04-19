@@ -26,3 +26,4 @@
 1. Complete the debug part and IntList part of lab2.  
 2. Finish lec4, expect exercise part.  
 3. Additionally, I find that the guide is very useful, including the lecture note and exercise, which is enough for me to study with lecture and hw/lab/proj.
+4. At last, Efficiency! Lecture and exercise for understanding, hw/lab/proj for application, both are important.
