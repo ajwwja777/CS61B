@@ -1,5 +1,6 @@
 # CS61B
 ![Image1](https://github.com/ajwwja777/git_exercise/raw/master/CS61BWebTitle.png)
+[English version](README_en.md)
 ### 前言与路线图
 总结之前CS61A的经验，制定新的学习策略。
 #### 1.输入
@@ -17,7 +18,8 @@
 [Textbook](https://joshhug.gitbooks.io/hug61b/content/)  
 [Skeleton Code](https://github.com/Berkeley-CS61B/skeleton-sp18)
 ### 简单记录与总结
-#### 模板
+#### 模板1
 只是完成cs61b阅读中java的基础语法，然后了解下java的值传递。`lec1 &lec2 & hw0 & lec3`利用递归类定义创建了IntList,sll列表。intlist中利用了递归和迭代创建了实例方法。`lec3`用p = this;迭代该索引。sll中利用中间人类完成了对底层列表的访问，通过创建中间方法实现了size()方法。或者通过缓存来实现size方法。然后通过哨兵节点避免了addLast()的特殊情况。`lec4`看了下双链列表的last实现中头尾哨兵节点或者循环哨兵节点，但是自己根本没有实现。  
 [来源](https://zhuanlan.zhihu.com/p/689818280)
-#### 4.19
+#### 记录
+`4.19`
