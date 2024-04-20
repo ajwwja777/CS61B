@@ -29,6 +29,6 @@
 4. At last, Efficiency! Lecture and exercise for understanding, hw/lab/proj for application, both are important.
   
 `4.20`  
-1. 今日计划
+1. 今日计划  
    我在想是否只需要写hw/lab/proj
 2. 123
