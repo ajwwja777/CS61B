@@ -19,7 +19,7 @@
 * [Skeleton Code](https://github.com/Berkeley-CS61B/skeleton-sp18)
 ### 简单记录与总结
 #### 模板1
-`lec1 &lec2 & hw0 & lec3`只是完成cs61b阅读中java的基础语法，然后了解下java的值传递。`lec3`利用递归类定义创建了IntList,sll列表。intlist中利用了递归和迭代创建了实例方法。用p = this;迭代该索引。`lec4`sll中利用中间人类完成了对底层列表的访问，通过创建中间方法实现了size()方法。或者通过缓存来实现size方法。然后通过哨兵节点避免了addLast()的特殊情况。` `看了下双链列表的last实现中头尾哨兵节点或者循环哨兵节点，但是自己根本没有实现。  
+`lec1 &lec2 & hw0 & lec3`只是完成cs61b阅读中java的基础语法，然后了解下java的值传递。`lec3`利用递归类定义创建了IntList,sll列表。intlist中利用了递归和迭代创建了实例方法。用p = this;迭代该索引。`lec4`sll中利用中间人类完成了对底层列表的访问，通过创建中间方法实现了size()方法。或者通过缓存来实现size方法。然后通过哨兵节点避免了addLast()的特殊情况。`lec5`看了下双链列表的last实现中头尾哨兵节点或者循环哨兵节点，但是自己根本没有实现。  
 [来源](https://zhuanlan.zhihu.com/p/689818280)
 #### 记录
 `4.19`  
