@@ -1,6 +1,7 @@
 # CS61B
 ![Image1](https://github.com/ajwwja777/git_exercise/raw/master/CS61BWebTitle.png)
 [English version](README_en.md)
+[CS61B-extension](https://github.com/ajwwja777/CS61B-extension/tree/master)
 ### 前言与路线图
 总结之前CS61A的经验，制定新的学习策略。
 #### 1.输入
