@@ -26,9 +26,8 @@
 1. Complete the debug part and IntList part of lab2.  
 2. Finish lec4, expect exercise part.  
 3. Additionally, I find that the guide is very useful, including the lecture note and exercise, which is enough for me to study with lecture and hw/lab/proj.
-4. At last, Efficiency! Lecture and exercise for understanding, hw/lab/proj for application, both are important.
-  
+4. At last, Efficiency! Lecture and exercise for understanding, hw/lab/proj for application, both are important.  
 `4.20`  
 1. 今日计划  
-   我在想是否只需要写hw/lab/proj
+   我在想是否只需要写hw/lab/proj，还是需要听课和写exercise，这对我帮助很大，不论在细节的思路上，还是在熟练度上。
 2. 123
