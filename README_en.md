@@ -1,5 +1,7 @@
 # CS61B
 ![Image1](https://github.com/ajwwja777/git_exercise/raw/master/CS61BWebTitle.png)
+[Chinese version](README.md)  
+[CS61B-extension](https://github.com/ajwwja777/CS61B-extension/tree/master)
 ### Preface and Roadmap
 Summarizing the experience from CS61A, I am setting up a new learning strategy.
 #### 1. Input

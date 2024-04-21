@@ -37,3 +37,6 @@
    总之，熟能生巧，慢慢来过，基础知识急不得，马虎不得。
    保持每天的持续性，每天一个lec和ex，不超过3h，再写hw/lab/proj。
 
+`4.21`  
+1. Finished lec5 all.
+2. Completed GSS of proj0 and the previous parts.  
