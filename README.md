@@ -38,5 +38,8 @@
    保持每天的持续性，每天一个lec和ex，不超过3h，再写hw/lab/proj。
 
 `4.21`  
-1. Finished lec5 all.
+1. Finished lec6 all.
 2. Completed GSS of proj0 and the previous parts.  
+
+`4.22`  
+1. Finished lec7 all.  
