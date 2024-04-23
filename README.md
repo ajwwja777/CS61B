@@ -46,3 +46,6 @@
    It takes about 2h, 1h for lec, 1h for ex.
 2. Thought: Spend 1h to lab/hw/proj a day.  
    If lab/hw/proj cannot follow the speed of lec, stop lec and do these first.
+
+`4.23`  
+1. Finished lec8 all. By the way, there is no ex.
