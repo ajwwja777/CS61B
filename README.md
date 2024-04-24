@@ -49,3 +49,6 @@
 
 `4.23`  
 1. Finished lec8 all. By the way, there is no ex.
+
+`4.24`  
+1. Completed CAA(Creating an Animation) and the previous parts.
