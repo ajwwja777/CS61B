@@ -51,4 +51,4 @@
 1. Finished lec8 all. By the way, there is no ex.
 
 `4.24`  
-1. Completed CAA(Creating an Animation) and the previous parts. Spend about 2h.
+1. Completed CAA(Creating an Animation) in proj0 and the previous parts. Spend about 2h.
