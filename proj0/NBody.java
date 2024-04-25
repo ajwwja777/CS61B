@@ -33,20 +33,20 @@ public class NBody {
     }
 
     /* wja_extraFn */
-    public static int readNum(String txtFileName){
+    private static int readNum(String txtFileName){
         In in = new In(txtFileName);
         int num = in.readInt();
         return num;
     }
 
     /* wja_extraFn */
-    public static void drawBackground(String imageToDraw, double universeR) {
+    private static void drawBackground(String imageToDraw, double universeR) {
         StdDraw.setScale(-universeR, universeR);
         StdDraw.picture(0, 0, imageToDraw);
     }
 
     /* wja_extraFn */
-    public static void drawPlants(Planet[] ps) {
+    private static void drawPlants(Planet[] ps) {
         for(Planet p: ps) {
             p.draw();
         }
