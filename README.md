@@ -34,7 +34,7 @@
    我在想是否只需要写hw/lab/proj。...做了exercise之后，想了一想，还是需要听课和写exercise，这对我帮助很大，不论在细节的思路上，还是在熟练度上。
 2. 总结  
    完成了lec4 ex和lec5的全部。lec4 ex花了2h，lec5听得很快1h内，但是ex花了2h+，一开始连题目都看不太懂，最后还是勉强看完他人解答。最后很累...  
-   总之，熟能生巧，慢慢来过，基础知识急不得，马虎不得。
+   总之，熟能生巧，慢慢来过，基础知识急不得，马虎不得。  
    保持每天的持续性，每天一个lec和ex，不超过3h，再写hw/lab/proj。
 
 `4.21`  
@@ -57,10 +57,10 @@
 1. Finished proj0! Spend about 2h.
 2. In fact, if I did it fast, it was not more than 1h, but i learn some other skills else.
 3. For example, I know the diifference between the VSCode and IDEA when they run the file today.
-4. If there is a class in somewhere, VSCode will use that.
-   It could make a trouble when you modify your code and there is no change. So delete it.
-   IDEA will make classes first, and then compile.
-   You can use javac file.java in terminal and then compile file.class, it could work for VSCod.
-   The simplilst way to run is that make sure there is no file.class, and run file.java in VSCode, it could work well with no class.
+4. If there is a class in somewhere, VSCode will use that.  
+   It could make a trouble when you modify your code and there is no change. So delete it.  
+   IDEA will make classes first, and then compile.  
+   You can use javac file.java in terminal and then compile file.class, it could work for VSCod.  
+   The simplilst way to run is that make sure there is no file.class, and run file.java in VSCode, it could work well with no class.  
    You can creat a test dir to do it.
 
