@@ -94,7 +94,7 @@ public class Planet {
     }
 
     public void draw() {
-        String path = "../images/" + imgFileName;
+        String path = "images/" + imgFileName;
         StdDraw.picture(xxPos, yyPos, path);
     }
 }

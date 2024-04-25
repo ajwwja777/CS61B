@@ -55,7 +55,7 @@ public class NBody {
     public static void main(String[] args) {
 
         // command line
-        String[] args1 = {"157788000.0", "25000.0", "../data/planets.txt"}; // for test
+        String[] args1 = {"157788000.0", "25000.0", "data/galaxy.txt"}; // for test
         double T = Double.parseDouble(args1[0]);
         double dt = Double.parseDouble(args1[1]);// 0th and 1st command line
         String filename = args1[2]; // 2nd command line
@@ -63,7 +63,7 @@ public class NBody {
         //Load Planets and so on
         Planet[] ps = readPlanets(filename); // new? I think both could work.
         double universeR = readRadius(filename);
-        String imageToDraw = "../images/starfield.jpg";
+        String imageToDraw = "images/starfield.jpg";
 
         //Draw Background and Plants test
         drawBackground(imageToDraw, universeR);

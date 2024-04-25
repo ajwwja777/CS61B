@@ -80,17 +80,16 @@ public class NBody {
     // quad-stars.txt
     public static void main(String[] args) {
         /* command line */
-        // cannot javac (some Chinese words appear)
         // command line input: 157788000.0 25000.0 ./data/planets.txt
-        // double T = Double.parseDouble(args[0]);
-        // double dt = Double.parseDouble(args[1]); // 0th and 1st command line
-        // String filename = args[2]; // 2nd command line
+        double T = Double.parseDouble(args[0]);
+        double dt = Double.parseDouble(args[1]); // 0th and 1st command line
+        String filename = args[2]; // 2nd command line
 
         /* test */
-        String[] args1 = {"157788000.0", "25000.0", "data/uniform100.txt"};
-        double T = Double.parseDouble(args1[0]);
-        double dt = Double.parseDouble(args1[1]); // 0th and 1st command line
-        String filename = args1[2]; // 2nd command line
+        // String[] args1 = {"157788000.0", "25000.0", "data/uniform100.txt"};
+        // double T = Double.parseDouble(args1[0]);
+        // double dt = Double.parseDouble(args1[1]); // 0th and 1st command line
+        // String filename = args1[2]; // 2nd command line
 
         //Load Planets and so on
         Planet[] ps = readPlanets(filename); // new? I think both could work.
