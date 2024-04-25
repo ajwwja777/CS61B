@@ -87,7 +87,7 @@ public class NBody {
         // String filename = args[2]; // 2nd command line
 
         /* test */
-        String[] args1 = {"157788000.0", "25000.0", "https://github.com/ajwwja777/CS61B/blob/master/proj0/data/3body.txt"};
+        String[] args1 = {"157788000.0", "25000.0", "data/uniform100.txt"};
         double T = Double.parseDouble(args1[0]);
         double dt = Double.parseDouble(args1[1]); // 0th and 1st command line
         String filename = args1[2]; // 2nd command line
