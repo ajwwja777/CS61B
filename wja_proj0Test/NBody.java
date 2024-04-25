@@ -32,59 +32,68 @@ public class NBody {
         return ps;
     }
 
+    /* wja_extraFn */
     public static int readNum(String txtFileName){
         In in = new In(txtFileName);
         int num = in.readInt();
         return num;
     }
 
-    public static void main(String[] args) {
-        // 157788000.0 25000.0
-        String[] args1 = {"157788000.0", "25000.0", "../data/planets.txt"}; // for test
-        double T = Double.parseDouble(args1[0]);
-        double dt = Double.parseDouble(args1[1]);// 0th and 1st command line
-        String filename = args1[2]; //  2nd command line
-        Planet[] ps = readPlanets(filename); // new?
-        double universeR = readRadius(filename);
-
-        StdDraw.enableDoubleBuffering();
-        /* draw background */
-        String imageToDraw = "../images/starfield.jpg";
-        // StdDraw.setCanvasSize((int)universeR, (int)universeR);
+    /* wja_extraFn */
+    public static void drawBackground(String imageToDraw, double universeR) {
         StdDraw.setScale(-universeR, universeR);
-        StdDraw.clear();
         StdDraw.picture(0, 0, imageToDraw);
-        StdDraw.show();
-        // StdDraw.pause(2000);
+    }
 
-        /* draw planet */
+    /* wja_extraFn */
+    public static void drawPlants(Planet[] ps) {
         for(Planet p: ps) {
             p.draw();
         }
+    }
 
+    public static void main(String[] args) {
 
-        double t = 0;
+        // command line
+        String[] args1 = {"157788000.0", "25000.0", "../data/planets.txt"}; // for test
+        double T = Double.parseDouble(args1[0]);
+        double dt = Double.parseDouble(args1[1]);// 0th and 1st command line
+        String filename = args1[2]; // 2nd command line
+
+        //Load Planets and so on
+        Planet[] ps = readPlanets(filename); // new? I think both could work.
+        double universeR = readRadius(filename);
+        String imageToDraw = "../images/starfield.jpg";
+
+        //Draw Background and Plants test
+        drawBackground(imageToDraw, universeR);
+        drawPlants(ps);
+
+        //Draw all
+        StdDraw.enableDoubleBuffering();
         int num = readNum(filename);
         double[] xForces = new double[num];
         double[] yForces = new double[num];
-        for(; t < T; t += dt){
+
+        for(double t = 0; t < T; t += dt){
             int i = 0;
+            //Calculate Force
             for(Planet p: ps) {
                 xForces[i] = p.calcNetForceExertedByX(ps);
                 yForces[i] = p.calcNetForceExertedByY(ps);
                 i++;
             }
+            //Update
             i = 0;
             for(Planet p: ps) {
                 p.update(dt, xForces[i], yForces[i]);
+                i++;
             }
-            // StdDraw.clear();
-            StdDraw.picture(0, 0, imageToDraw);
-            for(Planet p: ps) {
-                p.draw();
-            }
+            //Draw
+            drawBackground(imageToDraw, universeR);
+            drawPlants(ps);
             StdDraw.show();
-            StdDraw.pause(10);
+            StdDraw.pause(1);
         }
     }
 }
