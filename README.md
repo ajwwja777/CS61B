@@ -52,3 +52,15 @@
 
 `4.24`  
 1. Completed CAA(Creating an Animation) in proj0 and the previous parts. Spend about 2h.
+
+`4.25`  
+1. Finished proj0! Spend about 2h.
+2. In fact, if I did it fast, it was not more than 1h, but i learn some other skills else.
+3. For example, I know the diifference between the VSCode and IDEA when they run the file today.
+4. If there is a class in somewhere, VSCode will use that.
+   It could make a trouble when you modify your code and there is no change. So delete it.
+   IDEA will make classes first, and then compile.
+   You can use javac file.java in terminal and then compile file.class, it could work for VSCod.
+   The simplilst way to run is that make sure there is no file.class, and run file.java in VSCode, it could work well with no class.
+   You can creat a test dir to do it.
+
