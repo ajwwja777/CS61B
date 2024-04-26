@@ -64,3 +64,5 @@
    The simplilst way to run is that make sure there is no file.class, and run file.java in VSCode, it could work well with no class.  
    You can creat a test dir to do it.
 
+`4.26`  
+1. Finished lab3! Spend about 2.5h.
