@@ -2,7 +2,7 @@
  * See AList first.
  */
 
- public class ArrayDeque<T> {
+public class ArrayDeque<T> {
 
     private T[] items;
     private static int headerIndex = 1;
@@ -17,15 +17,18 @@
         size = 0;
     }
 
+    /* autoGrade: The following constructors should be removed */
+    /*
     public ArrayDeque(T item) {
         items = (T[]) new Object[length];
         size = 0;
         addFirst(item);
     }
-    
+    */
+
     /*             h */
     /* 0 1 2 3 4 5 6 7 */
-    public void resize(int capacity) {
+    private void resize(int capacity) {
         T[] newItem = (T[]) new Object[capacity];
         System.arraycopy(items, headerIndex, newItem, 0, size - headerIndex);
         System.arraycopy(items, 0, newItem, size - headerIndex, headerIndex);

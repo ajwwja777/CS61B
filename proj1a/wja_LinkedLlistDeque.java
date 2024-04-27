@@ -83,6 +83,29 @@ public class wja_LinkedLlistDeque {
         assertEquals(true, passed);
 
 		printTestStatus(passed);
-		
+	}
+
+	@Test
+	public void getIterativeTest() {
+		LinkedListDeque lld1 = new LinkedListDeque<Integer>();
+		lld1.addLast(0);
+		lld1.removeLast();
+		lld1.addFirst(2);
+		lld1.get(0);
+		lld1.addLast(4);
+		lld1.get(1);
+		assertEquals(4, lld1.get(1));
+	}
+
+	@Test
+	public void getRecursiveTest() {
+		LinkedListDeque lld1 = new LinkedListDeque<Integer>();
+		lld1.addLast(0);
+		lld1.removeLast();
+		lld1.addFirst(2);
+		lld1.get(0);
+		lld1.addLast(4);
+		lld1.getRecursive(1);
+		assertEquals(4, lld1.get(1));
 	}
 }
