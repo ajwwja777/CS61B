@@ -76,3 +76,5 @@
 4. Note  
    Lec title: Extends, Casting, Higher Order Functions.  
    That's enough. And that's all👀, I am too lazy to show examples, it's time wasted.
+5. Finished proj1b!
+6. Read proj1gode.
