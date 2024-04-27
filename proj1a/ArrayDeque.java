@@ -5,7 +5,7 @@
 public class ArrayDeque<T> {
 
     private T[] items;
-    private static int headerIndex = 1;
+    private static int headerIndex = 0;
     private static int lastIndex = 0;
     private static int size = 0;
     private static int length = 8;
@@ -40,20 +40,24 @@ public class ArrayDeque<T> {
     
     /* must take constant time, except during resizing operations. */
     public void addFirst(T item) {
-        if (size == length) {
+        if (size == length || lastIndex + 1 == headerIndex) {
             resize(size * 2);
         }
-        headerIndex--;
-        if (headerIndex < 0) {
-            headerIndex = length + headerIndex;
+        if (size == 0) {
+            items[headerIndex] = item;
+        } else {
+            headerIndex--;
+            if (headerIndex < 0) {
+                headerIndex = length + headerIndex;
+            }
+            items[headerIndex] = item;
         }
-        items[headerIndex] = item;
         size++;
     }
     
     /* must take constant time, except during resizing operations. */
     public void addLast(T item) {
-        if (size == length) {
+        if (size == length || lastIndex + 1 == headerIndex) {
             resize(size * 2);
         }
         if (size == 0) {
