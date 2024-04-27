@@ -30,6 +30,9 @@
         System.arraycopy(items, headerIndex, newItem, 0, size - headerIndex);
         System.arraycopy(items, 0, newItem, size - headerIndex, headerIndex);
         items = newItem;
+        headerIndex = 0;
+        lastIndex = length - 1;
+        length = capacity;
     }
     
     /* must take constant time, except during resizing operations. */
@@ -69,14 +72,17 @@
     }
 
     public void printDeque() {
+        int counter = 0;
         int i = headerIndex;
         int j = 0;
-        while (i < size) {
+        while (i < length && counter < size) {
             System.out.println(items[i]);
+            counter++;
             i++;
         }
-        while (j < headerIndex) {
+        while (j < headerIndex && counter < size) {
             System.out.println(items[j]);
+            counter++;
             j++;
         }
     }
