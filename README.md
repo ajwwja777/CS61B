@@ -20,7 +20,7 @@
 * [Course Website](https://sp18.datastructur.es/)
 - [Textbook](https://joshhug.gitbooks.io/hug61b/content/)
 * [Skeleton Code](https://github.com/Berkeley-CS61B/skeleton-sp18)
-* [Study notes by Junhao Wang](https://junhaow.com/studynotes/#cs-61b-data-structures)
+- [Study notes by Junhao Wang](https://junhaow.com/studynotes/#cs-61b-data-structures)
 * [exercisesInGuide](https://github.com/githubdudu/cs61b-2021Spring/tree/17ccfcd1bd5b3b93872689f27bcd41fb14cd8b7f/exercisesInGuide)
 
 ### 简单记录与总结
