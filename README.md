@@ -82,3 +82,4 @@
 `4.28`  
 1. Finished lec10! New level of abstrction! Interface is a brilliant idea!
 2. I need to upload proj1b, with interface and comparable and comparator.
+3. So think about the lab and proj during studying lec, after finishing lec, then do them.
