@@ -77,4 +77,8 @@
    Lec title: Extends, Casting, Higher Order Functions.  
    That's enough. And that's all👀, I am too lazy to show examples, it's time wasted.
 5. Finished proj1b!
-6. Read proj1gode.
+6. Read proj1gold.
+
+`4.28`  
+1. Finished lec10! New level of abstrction! Interface is a brilliant idea!
+2. I need to upload proj1b, with interface and comparable and comparator.
