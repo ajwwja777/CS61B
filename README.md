@@ -1,3 +1,4 @@
+[NEW VERSION-sp21](https://github.com/ajwwja777/CS61B-sp21/tree/master)
 # CS61B
 ![Image1](https://github.com/ajwwja777/git_exercise/raw/master/CS61BWebTitle.png)
 [English version](README_en.md)  
@@ -17,11 +18,11 @@
 要有效率的学习，最好限时自己完成一件事情，不要陷入完美主义，把握主要思路即可，因为一些偏理论的细致末节的东西很快就会被忘掉，而应用的最多的才会被记住。
 
 ### Useful link
-* [Course Website](https://sp18.datastructur.es/)
+* [Course Website-sp18](https://sp18.datastructur.es/)
 - [Textbook](https://joshhug.gitbooks.io/hug61b/content/)
-* [Skeleton Code](https://github.com/Berkeley-CS61B/skeleton-sp18)
-- [Study notes by Junhao Wang](https://junhaow.com/studynotes/#cs-61b-data-structures)
-* [exercisesInGuide](https://github.com/githubdudu/cs61b-2021Spring/tree/17ccfcd1bd5b3b93872689f27bcd41fb14cd8b7f/exercisesInGuide)
+* [Skeleton Code-sp18](https://github.com/Berkeley-CS61B/skeleton-sp18)
+- [Study notes by Junhao Wang-sp18](https://junhaow.com/studynotes/#cs-61b-data-structures)
+* [exercisesInGuide-sp21](https://github.com/githubdudu/cs61b-2021Spring/tree/17ccfcd1bd5b3b93872689f27bcd41fb14cd8b7f/exercisesInGuide)
 
 ### 简单记录与总结
 #### 记录
@@ -83,3 +84,7 @@
 1. Finished lec10! New level of abstrction! Interface is a brilliant idea!
 2. I need to upload proj1b, with interface and comparable and comparator.
 3. So think about the lab and proj during studying lec, after finishing lec, then do them.
+
+`4.29`
+1. Turn to sp21.
+2. Here is the link.[repo-sp21](https://github.com/ajwwja777/CS61B-sp21/tree/master)
