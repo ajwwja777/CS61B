@@ -32,11 +32,17 @@ public class TestArrayDequeGold {
                 sad1.addLast(randVal);
                 output += "\naddLast(" + randVal + ")";
             } else if (operationNumber == 2 && ads.size() != 0) {
-                output += "\nremoveFirst()";
-                assertEquals(output, ads.removeFirst(), sad1.removeFirst());
+                Integer expect = ads.removeFirst();
+                Integer actual = sad1.removeFirst();
+                output += "\nremoveFirst() " + expect;
+                output += "\nremoveFirst() " + actual;
+                assertEquals(output, expect, actual);
             } else if (operationNumber == 3 && ads.size() != 0) {
-                output += "\nremoveLast()";
-                assertEquals(output, ads.removeLast(), sad1.removeLast());
+                Integer expect = ads.removeLast();
+                Integer actual = sad1.removeLast();
+                output += "\nremoveLast() " + expect;
+                output += "\nremoveLast() " + actual;
+                assertEquals(output, expect, actual);
             }
         }
     }
